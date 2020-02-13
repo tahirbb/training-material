@@ -275,7 +275,7 @@ For this tutorial, we will use the default "peer" authentication, so we need to 
 >    galaxy_venv_python: 3
 >    pip_virtualenv_command: /usr/bin/python3 -m virtualenv # usegalaxy_eu.certbot, usegalaxy_eu.tiaas2, galaxyproject.galaxy
 >    certbot_virtualenv_package_name: python3-virtualenv    # usegalaxy_eu.certbot
->    pip_package: python3-pip # geerlingguy.pip
+>    pip_package: python3-pip                               # geerlingguy.pip
 >
 >    # PostgreSQL
 >    postgresql_objects_users:
@@ -434,7 +434,9 @@ The configuration is quite simple thanks to the many sensible defaults that are 
 >    > > ---
 >    > > # python3 support
 >    > > galaxy_venv_python: 3
->    > > pip_virtualenv_command: /usr/bin/python3 -m virtualenv
+>    > > pip_virtualenv_command: /usr/bin/python3 -m virtualenv # usegalaxy_eu.certbot, usegalaxy_eu.tiaas2, galaxyproject.galaxy
+>    > > certbot_virtualenv_package_name: python3-virtualenv    # usegalaxy_eu.certbot
+>    > > pip_package: python3-pip                               # geerlingguy.pip
 >    > >
 >    > > # PostgreSQL
 >    > > postgresql_objects_users:
